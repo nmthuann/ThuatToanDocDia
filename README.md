@@ -57,6 +57,8 @@ Dưới đây là mô tả chi tiết về cách hoạt động của mỗi thu�
 
 - Đầu đọc: |---98---|---183---|---37---|---122---|---14---|---124---|---65---|---67---|
 
+- ảnh minh họa: ![alt text](image-1.png)
+
 ### 2. **Shortest Seek Time First (SSTF)**:
 
 - **Cách thức hoạt động:** Chọn yêu cầu có thời gian đợi (seek time) ngắn nhất từ vị trí hiện tại của đầu đọc/ghi.
@@ -77,6 +79,8 @@ Dưới đây là mô tả chi tiết về cách hoạt động của mỗi thu�
 
 - Đầu đọc: |---98---|---122---|---65---|---67---|---37---|---14---|---124---|---183---|
 
+- ảnh minh họa: ![alt text](image-2.png)
+
 ### 3. **SCAN (Elevator)**:
 
 - **Cách thức hoạt động:** Đầu đọc/ghi di chuyển từ một đầu của đĩa đến đầu còn lại, và xử lý yêu cầu trên đường đi. Khi đến cuối đĩa, đầu đọc/ghi quay ngược lại.
@@ -94,6 +98,7 @@ Dưới đây là mô tả chi tiết về cách hoạt động của mỗi thu�
 #### SCAN (Elevator)
 
 - Đầu đọc: |---98---|---122---|---124---|---14---|---65---|---67---|---183---|
+- ảnh minh họa: ![alt text](image-3.png)
 
 ### 4. **C-SCAN (Circular SCAN)**:
 
@@ -111,6 +116,7 @@ Dưới đây là mô tả chi tiết về cách hoạt động của mỗi thu�
 #### C-SCAN (Circular SCAN)
 
 - Đầu đọc: |---98---|---122---|---124---|---14---|---65---|---67---|---183---|---37---|
+- ảnh minh họa: ![alt text](image-4.png)
 
 ### 5. **LOOK**:
 
@@ -130,3 +136,5 @@ Dưới đây là mô tả chi tiết về cách hoạt động của mỗi thu�
 #### LOOK
 
 - Đầu đọc: |---98---|---122---|---124---|---14---|---65---|---67---|---183---|---37---|
+
+# Ảnh minh họa: ![alt text](image.png)
